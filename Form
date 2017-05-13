@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<form>
+<fieldset>Customer Information
+<br><br>
+
+<label>First Name: <input type="text" name="fname" id="fname" id="fname"></label><br><br>
+<label>Last Name: <input type="text" name="lname" id="lname" id="lname"</label><br><br>
+<label>Email: <input type ="text" name="email" id="email" id="Email"</label><br><br>
+</fieldset>
+<fieldset>
+
+<label for="Comments">Comments:</label>:<br><br>
+<textarea name="comments" id="Comments" rows="4"
+cols="40"></textarea>
+</fieldset>
+<input type="submit">  <input type="reset">
+</form>
+</html>

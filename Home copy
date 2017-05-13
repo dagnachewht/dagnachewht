@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<link rel="icon" href="favicon.ico" type="image/x-icon">
+     <link rel="shortcut icon" href"favicon.ico" type="image/x-icon"/>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+    $("button").click(function(){
+        $("#p1").css("color", "red").slideUp(2000).slideDown(2000);
+    });
+});
+</script>
+</head>
+<body>
+
+<p id="p1">Try something new!!</p>
+
+<button>Click me</button>
+
+</body>
+</html>
+
+<!DOCTYPE html>
+<html>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+    $("#p1").mouseleave(function(){
+        alert("CHECK OUT ALL OF OUR MENUS ");
+    });
+});
+</script>
+</head>
+<body>
+
+<p id="p1"> We hope you enjoy roaming around our website.</p>
+
+</body>
+</html>
+
+<nav>
+  <ul>
+    <li><a href="Indian Food.html">Indian Food</a></li>
+    <li><a href="Italian Food.html">Italian Food</a></li>
+    <li><a href="Ethiopian Food.html">Ethiopian Food</a></li>
+    <li><a href="Chinese food.html">Chinese Food</a></li>
+    <li><a href="American food.html">American Food</a></li>
+    <li><a href="Home copy">Home</a></li>
+
+  </ul>
+</nav>
+
+<!DOCTYPE html>
+<html>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+    $("p").click(function(){
+        $(this).hide();
+    });
+});
+</script>
+</head>
+<body>
+
+<p>Great vibes.</p>
+<p>Low Prices!</p>
+<p>Tasty Food!</p>
+
+</body>
+</html>
+
+<!DOCTYPE html>
+<html>
+<body>
+
+
+
+<p id="demo"></p>
+
+<script>
+var person = {firstName:"Hiwot", lastName:"Dagnachew", age:30, eyeColor:"brown"};
+
+document.getElementById("demo").innerHTML =
+person.firstName + " is " + person.age + " years old.";
+</script>
+
+</body>
+</html>
+
+<!DOCTYPE html>
+<html>
+<body>
+
+
+
+
+<p id="demo">Dont worry...</p>
+
+<button type="button" onclick='document.getElementById("demo").innerHTML = "Be happy!"'>Click Me!</button>
+
+</body>
+</html>
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+div.container {
+    width: 100%;
+    border: 2px solid gray;
+}
+
+header, footer {
+    padding: 1em;
+    color: black;
+    background-color: Pink;
+    clear: left;
+    text-align: center;
+}
+
+nav {
+    float: left;
+    max-width: 160px;
+    margin: 1;
+    padding: 1em;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+   
+nav ul a {
+    text-decoration: none;
+}
+
+article {
+    margin-left: 170px;
+    border-left: 1px solid gray;
+    padding: 1em;
+    overflow: hidden;
+}
+</style>
+</head>
+<body>
+
+<div class="container">
+
+<header>
+   <h1>Every Meal Possible</h1>
+</header>
+
+<table border="1">
+    <caption>Whats offered?</caption>
+
+    <tr>
+        <td> Ethiopian Food</td>
+        <td> Indian Food</td>
+     </tr>
+     <tr>
+         <td> Chinese Food</td>
+         <td> Italian Food</td>
+         </tr> 
+         </tr>
+         <td> American Food</td>
+         <td> So many choices!!</td>
+         </tr>
+         </table> 
+  
+
+<a href="file:///Users/hiwotdagnachew/Desktop/info202/Form"> Form
+
+<nav>
+  <ul>
+<h3> Contact Every Meal Possible </h3>
+<ul>
+General Manager
+<li> Email:
+<a href="mailto:hdagnachew@gmail.com">Hiwot Dagnachew</a>.<br>
+<li> Phone: 703-567-5096
+</ul>
+</nav>
+
+<div STYLE="background-color:pink;"><p>
+<p style="color:green;font-size:18px">Every Meal Possible!</p>
+
+<p>New 5 star restaurant by the harbor&#33; <br> This new restaurant opened up on Janurary 1st in 2017. We have the top chefs in the country just to please our customers.So come on in to enjoy different cultures from all across the world!
+  </strong> </p> 
+<blockquote>
+ 5437 dragon dr Alexandria va 23467 
+<blockquote>
+<head>
+<body>
+<style>
+figure {width: 340px;
+        border: 1px solid #000000;
+        padding: 5px; }
+figcaption {text-align: center;
+            font-family: Papyrus, fantasy; }
+</style>
+<img src="america-globe.jpg" alt="globe" height="280" width="340">
+<figure>
+<figcaption>
+Food connects us all
+</figcaption>
+</figure>
+</body>
+</head> 
+
+ 
+ 
+ 
+
+
+
+
+  
+  
+  
+  
+
+
+
+
+
